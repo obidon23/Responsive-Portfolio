@@ -1,0 +1,201 @@
+/*I built this wider than the proscribed 960 width, but maintained the overall dimensions and layout. I talked with Sarah and Chris.*/
+.container {
+	width: 1024px;
+	border-bottom: 4px solid lightblue;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+	padding: 0;
+
+}
+header {
+	background-color: #fff;
+	width: 1024px;
+	margin: 0 auto;
+	border-bottom: 5px solid #4aaaa5;
+	height: 91px;
+	}
+
+h1 {
+	position: relative;
+	background-color: #4aaaa5;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	left: 100px;
+	width: 240px;
+	float: left;
+	padding: 30px 0;
+	margin: 0;
+		}
+
+nav {
+	display: block;
+	float: right;
+	height: 91px;
+}
+
+nav ul li {
+	display: block;
+	float: right;
+	padding: 25px 20px;
+	text-decoration: none;
+	}
+
+nav ul li a {
+	display: block;
+	float: right;
+	padding: 5px 3px;
+	text-decoration: none;
+	color: #999999;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 24px;
+}
+
+header ul li a:hover {
+	color: #001a66;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 24px;
+}
+
+header ul li a:active {
+	color: #orange;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 24px;
+}
+
+header ul li a:visited {
+	color: #green;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 24px;
+}
+#aboutme {
+	width: 600px;
+	background-color: #fff;
+	padding: 0 20px 20px 20px;
+	margin: 25px 25px 25px 100px;
+	float: left;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: "Georgia", times new roman, times, serif;
+	line-height: 32px;
+	font-size: 32px;
+	border-bottom: 2px solid #999;
+	padding: 10px 0;
+	font-weight: bold;
+	margin: 10px 0 10px 0;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: gray;
+}
+
+ #connect {
+	width: 270px;
+	background-color: #fff;
+	float: left;
+	padding: 10px;
+	margin: 25px 0 0 0;
+}
+
+.headshot {
+	width: 100px;
+	margin: 10px;
+	float: left;
+}
+
+.connects {
+	margin: 16px;
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: "Georgia", times new roman, times, serif;
+	line-height: 24px;
+	font-size: 20px;
+	border-bottom: 2px solid #4aaaa5;
+	padding: 10px 0;
+	text-align: center;
+	font-weight: bold;
+	margin: 10px 0 20px 0;
+}
+
+
+.button {
+    background-color: #248f8f; 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#input {
+	margin: 0 0 10px 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #999;
+	border: 1px solid #999;
+	padding: 5px;
+	width: 450px;
+}
+
+#labels {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0;
+	color: #666;
+}
+
+.portfolio {
+	height: 200px;
+	width: 265px;
+	margin: 7px;
+	float: left;
+	position: relative;
+}
+
+.portfolio h4 {
+	display: block;
+	position: absolute;
+	height: 60px;
+	width: 265px;
+	bottom: 17px;
+	background-color: #4aaaa5;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	z-index: 1;
+}
+
+footer {
+	text-align: center;
+	background-color: #666;
+	color: #fff;
+	width: 1024px;
+	height: 50px;
+	padding: 16px 0;
+	margin: 0 auto;
+	clear: both;
+}
+
+footer p {
+	color: #fff;
+}
+
